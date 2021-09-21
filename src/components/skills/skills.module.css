@@ -1,0 +1,17 @@
+.skills{
+  padding: 90px 0 110px;
+}
+
+.skills__title{
+  text-align: center;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 70px;
+}
+
+.skills__content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

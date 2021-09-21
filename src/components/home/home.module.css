@@ -1,0 +1,43 @@
+*{
+  font-family: Gilroy;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 105px;
+}
+
+.home__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+
+.home__content_title{
+  font-family: Gilroy-Bold;
+  white-space: pre-line;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+
+.home__content_text{
+  white-space: pre-line;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.home__content_leng{
+  /* display: flex; */
+  /* align-self: center; */
+  /* transform: rotate(-90deg); */
+  /* margin-top: 35px; */
+}
+
+.home__foto{
+  max-width: 965px;
+  max-height: 390px;
+}

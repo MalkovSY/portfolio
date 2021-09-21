@@ -1,0 +1,19 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+  padding: 120px 0 107px;
+}
+
+.about_title{
+  font-family: Gilroy-Bold;
+  margin-bottom: 18px;
+}
+
+.about_text {
+  font-family: Gilroy;
+  margin-bottom: 35px;
+  max-width: 490px;
+  text-align: center;
+}

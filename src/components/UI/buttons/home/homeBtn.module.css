@@ -1,0 +1,16 @@
+.btn{
+  font-family: Gilroy-Bold;
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  margin: 0px;
+  /* margin-bottom: 0; */
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+
+.btn:hover{
+  font-weight: bold;
+}
