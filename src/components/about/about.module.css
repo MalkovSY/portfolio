@@ -3,12 +3,15 @@
   flex-direction: column;
   align-items: center;
   background-color: #F6F6F6;
-  padding: 120px 0 107px;
+  padding: 100px 0 60px;
 }
 
 .about_title{
   font-family: Gilroy-Bold;
   margin-bottom: 18px;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707
 }
 
 .about_text {
@@ -17,3 +20,43 @@
   max-width: 490px;
   text-align: center;
 }
+
+.about_contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about_contact_btn{
+  font-family: Gilroy-Bold;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 180.5px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: #070707;
+  border: none;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+@media (max-width: 1002px) {
+  .about{
+    max-width: 700px;
+    padding: 60px 0 60px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 415px) {
+  .about_text{
+    max-width: 320px;
+  }
+}
+

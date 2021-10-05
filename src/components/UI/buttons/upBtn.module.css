@@ -1,0 +1,30 @@
+.btn{
+  position: fixed;
+  bottom: 80px;
+  right: 320px;
+  cursor: pointer;
+}
+
+@media (max-width: 1700px) {
+  .btn{
+    right: 150px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .btn{
+    right: 50px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .btn{
+    right: 2px;
+  }
+}
+
+@media (max-width: 1002px) {
+  .btn{
+    display: none;
+  }
+}

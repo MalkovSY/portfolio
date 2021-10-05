@@ -1,0 +1,16 @@
+.btn{
+  font-family: Gilroy-Bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 180.5px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: #070707;
+  border: none;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  cursor: pointer;
+}

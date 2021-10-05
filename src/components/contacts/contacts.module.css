@@ -1,0 +1,36 @@
+.contacts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0 50px;
+  margin: 0 auto;
+}
+
+.contacts__title{
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 40px;
+}
+
+.contacts__descr{
+  margin-bottom: 50px;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.contacts__social{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.contacts__social_descr{
+  font-family: Gilroy;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  text-align: center;
+  white-space: pre-line;
+}

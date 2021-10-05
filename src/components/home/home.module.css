@@ -5,7 +5,7 @@
 .home{
   display: flex;
   flex-direction: column;
-  padding: 40px 0 105px;
+  padding: 40px 0 40px;
 }
 
 .home__content{
@@ -30,14 +30,32 @@
   color: #070707;
 }
 
-.home__content_leng{
-  /* display: flex; */
-  /* align-self: center; */
-  /* transform: rotate(-90deg); */
-  /* margin-top: 35px; */
-}
-
 .home__foto{
   max-width: 965px;
-  max-height: 390px;
+  box-shadow: 0px 0px 10px .1px rgba(51, 51, 51, 1);
+}
+
+@media (max-width: 1002px) {
+  .home{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .home{
+    padding: 10px 0 20px;
+  }
+  .home__content{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .home__content_title{
+    margin-bottom: 30px;
+  }
+  .home__content_text{
+    margin-bottom: 30px;
+  }
 }

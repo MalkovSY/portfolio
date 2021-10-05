@@ -13,3 +13,10 @@
   color: #070707;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .btn{
+    font-size: 30px;
+    padding: 75px !important;
+  }
+}

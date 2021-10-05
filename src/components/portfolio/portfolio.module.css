@@ -1,0 +1,29 @@
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  padding: 110px 0 100px;
+  background-color: #F6F6F6;
+}
+
+.portfolio__title{
+  font-family: Gilroy-Bold;
+  text-align: center;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+  margin-bottom: 47px;
+}
+
+@media (max-width: 1002px) {
+  .portfolio{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .portfolio{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
